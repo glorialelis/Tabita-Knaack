@@ -1,0 +1,129 @@
+@media screen and (max-width: 768px) {
+    body{
+        h1{
+            font-size: 32px;
+            text-align: center;
+        }
+        p{
+            font-size: 15px;
+            text-align: center;
+        }
+
+    }
+    .nav__header{
+        display: none;
+    }
+    .sessao_inicial{
+        padding: 70px 40px;
+        align-items: center;
+    }
+    .sessao_inicial_conteudo__nav{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        top: -30px;
+    }
+    .sessao_inicial_conteudo__nav div{
+    
+        padding: 10px 20px;
+    } 
+    .div.conteudo-nav__btn{
+        padding: 30px;
+    }
+    .conteudo-nav__btn-destaque{
+        padding: 0;
+        
+    }
+    .sessao_inicial_conteudo{
+        padding: 0;
+        height: 500px;
+    }
+    .imagem_inicial_mobile{
+        display: block;
+    }
+    .imagem_inicial {
+        display: none;
+    }
+    .sessao_inicial{
+        padding: ;
+    }
+    .sessao_inicial_text{
+        padding: 0;
+    }
+    .sessao_blog{
+        padding: 40px 40px;
+    }
+    .sessao_blog h1{
+        text-align: start;
+    }
+    .card{
+        gap: 20px
+    }
+    .card__conteudo{
+        gap: 30px;
+    }
+    .card__conteudo p{
+        font-size: 24px;
+        
+        text-align: start;
+
+    }
+    .sessao_sobre{
+        padding: 40px;
+        padding: 0;
+    }
+    .card_sobre{
+        padding: 55px 40px;
+        border-radius: 0;
+        flex-direction: column-reverse;
+    }
+    .card_sobre h2{
+        text-align: center;
+    }
+    .conteudo_sobre{
+        width: 100%;
+    }
+    .imagem_sobre{
+
+        width: 100%;
+    }
+    .sessao_tratametos{
+        align-items: center;
+        padding: 40px;
+    }
+    .tratamentos{
+        flex-direction: column;
+    }
+    .sessao_ceo{
+        padding: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteudo_ceo{
+        width: 100%;
+    }
+    .video{
+        width: 100%;
+    }
+    .sessao_equipe{
+        padding: 45px;
+        flex-direction: column-reverse;
+    }
+    .equipe_conteudo{
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+    .equipe_conteudo p{
+        width: 100%;
+    }
+    .equipe{
+        display: flex;
+    }
+    
+
+    
+    
+}

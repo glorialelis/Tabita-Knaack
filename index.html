@@ -5,43 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabita Knaack</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <header>
         <img src="img/logo.png" alt="logo tabita Knaack" class="logo__header">
         <nav>
             <ul class="nav__header">
-                <li><a href="#">ÍNICIO</a></li>
-                <li><a href="#">SOBRE NÓS</a></li>
-                <li><a href="#">SERVIÇOS</a></li>
+                <li><a href="#inicio">ÍNICIO</a></li>
+                <li><a href="#blog">BLOG</a></li>
+                <li><a href="#sobre">SOBRE NÓS</a></li>
+                <li><a href="#tratamentos">SERVIÇOS</a></li>
                 <li><a href="#">DEPOIMENTOS</a></li>
-                <li><a href="#">BLOG</a></li>
+                
                 <div class="botao__destaque"><a href="#">AGENDE UMA CONSULTA</a></div>
             </ul>
         </nav>
     </header>
     <main>
         
-        <section class="sessao_inicial">
+        <section class="sessao_inicial" id="inicio">
             <div class="sessao_inicial_conteudo">
                 <div class="sessao_inicial_text">
                     <h1>Você merece viver <br> o seu potencial.</h1>
                     <p>Aqui, você encontra <strong>profissionais</strong> capacitados  em  <br>quem <strong>pode confiar</strong>.</p>
+                    <img class="imagem_inicial_mobile" src="img/imagem_inicial_mobile.png" alt="">
                     <nav class="sessao_inicial_conteudo__nav">
                         <div class="conteudo-nav__btn"><a href="#">Agende uma Consulta</a></div>
                         <div class="conteudo-nav__btn-destaque"><a href="#">Conheça os nossos serviços</a></div>
                     </nav>
                 </div>
-                <img src="img/imagem_inicial.png" alt="">
+                <img class="imagem_inicial" src="img/imagem_inicial.png" alt="">
             </div>
         </section>
 
-        <section class="sessao_blog">
+        <section class="sessao_blog" id="blog">
             <h1>Nosso Blog</h1>
 
-            <div class="conteudo__blog">
+            <div class="conteudo__blog ">
 
-                <div class="card">
+                <div class="card capa_blog_1">
                     <div class="card__titulo">Qualidade de Vida</div>
                     <div class="card__conteudo">
                         <p>Como a Terapia ocupacional pode melhorar a sua vida</p>
@@ -49,7 +53,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card capa_blog_2">
                     <div class="card__titulo">Vida equilibrada</div>
                     <div class="card__conteudo">
                         <p>A Importância de Cuidar do Corpo e da Mente</p>
@@ -59,7 +63,7 @@
                     
                
 
-                <div class="card">
+                <div class="card capa_blog_3">
                     <div class="card__titulo">Sinais de Alerta para Pais</div>
                     <div class="card__conteudo">
                         <p>Quando Procurar um Fonoaudiólogo?</p>
@@ -73,7 +77,7 @@
 
         </section>
 
-        <section class="sessao_sobre">
+        <section class="sessao_sobre" id="sobre">
 
             <div class="card_sobre">
                 <div class="imagem_sobre"></div>
@@ -86,7 +90,7 @@
 
         </section>
 
-        <section class="sessao_tratametos">
+        <section class="sessao_tratametos" id="tratamentos">
             <h1>Tratametos que <br>oferecemos:</h1>
             <div class="tratamentos">
                 <div class="card_tratamentos card_trata1"><a href="#">Terapia <br>ocupacional</a></div>
@@ -101,19 +105,53 @@
                 <h1>Sobre a CEO<br>Tabita Knaack</h1>
                 <p>Tabita Costa Knaack, fundadora da clínica, no qual foi para área da saúde e tornou-se TerapeutaOcupacional, pois recebeu diagnóstico de uma doença degenerativa chamadaParaparesia Espástica Hereditária (PEH), e assim, decidiu estudar para buscarentender as mudanças que começaram a acontecer em seu corpo, e assimpossibilitar melhores tratamentos para si e demais pessoas.  </p>
             </div>
-            <div class="video">(vídeo)</div>
+            <iframe  class="video" width="560" height="315" src="https://www.youtube.com/embed/chCZTlq8tw8?si=KqP2w2_9bGGDt4B7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         </section>
 
         <section class="sessao_equipe">
             <div class="equipe">
-                <div class="equipe__imagem"></div>
-                <div class="equipe__imagem"></div>
-                <div class="equipe__imagem"></div>
-                <div class="equipe__imagem"></div>
+                <div class="equipe__imagem profissional1"></div>
+                <div class="equipe__imagem profissional2"></div>
+                <div class="equipe__imagem profissional3"></div>
+                <div class="equipe__imagem profissional4"></div>
             </div>
             <div class="equipe_conteudo">
                 <h1>Sobre nossa <br>equipe</h1>
                 <p>Nossa equipe é composta por profissionais altamente qualificados em diversas especialidades da saúde. Trabalhamos juntos para fornecer um atendimento integral e personalizado, garantindo que cada paciente receba o cuidado que merece.</p>
+            </div>
+        </section>
+
+        <section class="sessao_feedback">
+            <div class="titulo_feedback">
+                <p>Depoimentos</p>
+                <h1>O que nossos pacientes <br> dizem sobre a gente</h1>
+                <div class="container_card">
+                    <div class="card-feedback">
+                        <p  class="feedback">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tortor varius arcu placerat porta. Proin gravida tempus diam. Donec pellentesque nisi nec consectetur hendrerit.”</p>
+                        <div class="usuario_feedback">
+                            <div class="img_feedback user1"></div>
+                            <p class="usuario_nome">Eduarda</p>
+                        </div>
+                    </div>
+               
+             
+                    <div class="card-feedback">
+                        <p  class="feedback">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tortor varius arcu placerat porta. Proin gravida tempus diam. Donec pellentesque nisi nec consectetur hendrerit.”</p>
+                        <div class="usuario_feedback">
+                            <div class="img_feedback user2"></div>
+                            <p  class="usuario_nome">Liviane</p>
+                        </div>
+                    </div>
+               
+               
+                    <div class="card-feedback">
+                        <p class="feedback">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus tortor varius arcu placerat porta. Proin gravida tempus diam. Donec pellentesque nisi nec consectetur hendrerit.”</p>
+                        <div class="usuario_feedback">
+                            <div class="img_feedback user3"></div>
+                            <p  class="usuario_nome">Thais</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
@@ -135,5 +173,9 @@
         </div>
     </footer>
     
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
